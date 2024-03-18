@@ -58,7 +58,7 @@ namespace TestCoreApi.Controllers
             }
             else
             {
-                return Unauthorized("Invalid email or password");
+                return Unauthorized("Invalid email or pass");
             }
         }
 
