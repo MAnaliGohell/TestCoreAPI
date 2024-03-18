@@ -13,5 +13,6 @@ namespace TestCoreApi.Models
         public Guid UserId { get; set; }
         [ForeignKey(nameof(UserId))]
         public virtual User User { get; set; }
+        
     }
 }
